@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+#teqzz, ul {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: 60px;
+  font-weight: normal;
+  color: transparent;
+  text-shadow: 0 0 1px #eee, 5px 5px 1px #00dcdc, -5px -2px 1px #ff3232;
+  animation: glitch 4s ease-in-out infinite alternate;
+}
+@keyframes glitch {
+  0%,40%,44%,58%,61%,65%,69%,73%,100% {transform:skewX(0deg);}
+  41% {transform: skewX(10deg);}
+  42% {transform: skewX(-10deg);}
+  59% {transform: skewX(40deg) skewY(10deg);}
+  60% {transform: skewX(-40deg) skewY(-10deg);}
+  63% {transform: skewX(10deg) skewY(-5deg);}
+  70% {transform: skewX(-50deg) skewY(-20deg);}
+  71% {transform: skewX(10deg) skewY(-10deg);}
+}
+#teqzz {
+  font-size: 30px;
+  color: red;
+text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black, 0 0 20px crimson, 0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
+ }
+#teqzz{
+  position: absolute;
+  top: 2%;
+  left: 36%;
+}
+
+.menu {
+font-size: 46px;
+    list-style-type: none;
+        position: absolute;
+  top: 30%;
+  left: 25%;
+
+}
+
+.menu a {
+text-decoration: none;
+font-family: sans-serif;
+color: #000000;
+display: inline-block;
+padding: 10px 20px;
+background-color: #808080; 
+border-bottom: 5px solid #000000;
+}
+.menu li {
+display: inline;
+}
+
